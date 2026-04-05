@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "I"]
+exclude = ["venv", ".idea", "__pycache__"]
+
+[tool.mypy]
+python_version = 3.13
+warn_unused_configs = true
+ignore_missing_imports = true
+strict = true
+
